@@ -1,0 +1,95 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: seashell;
+}
+
+header, footer {
+  background-color: #003366;
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+
+header .nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header .logout {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+form input, form button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ebe1e1;
+  border-radius: 5px;
+}
+form button {
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #003366;
+}
+.seating-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.seating-table th, .seating-table td {
+  padding: 10px;
+  border: 1px solid #0b0202;
+  text-align: left;
+}
+.footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.visual-map{
+  border: black solid 2px;
+}
+
+#stageImg{
+  width: 50%;
+  margin-left: 25%;
+}
+
+#visualMap{
+  font-size: larger;
+  text-align: center;
+}
+
+#admin-dashboard{
+  line-height: 1.8;
+}
+
+#clglogo{
+  width: 30px;
+}
